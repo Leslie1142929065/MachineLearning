@@ -1,0 +1,22 @@
+Index: PycharmProjects/pythonProject/CJCXXT/Test/EDA.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PycharmProjects/pythonProject/CJCXXT/Test/EDA.py b/PycharmProjects/pythonProject/CJCXXT/Test/EDA.py
+--- a/PycharmProjects/pythonProject/CJCXXT/Test/EDA.py	
++++ b/PycharmProjects/pythonProject/CJCXXT/Test/EDA.py	(date 1657643149830)
+@@ -120,11 +120,11 @@
+ print(train.shape)
+ 
+ y = train.SalePrice.reset_index(drop=True)
+-train_features = train.drop(['SalePrice'], axis=1)  
++train_features = train.drop(['SalePrice'], axis=1)  #axis = 1 代表按列删除
+ test_features = test
+ features = pd.concat([train_features, test_features]).reset_index(drop=True)
+ features.drop(['Id'], axis=1, inplace=True)
+-print(features)
++print(features.shape)
+ 
+ 
+ 

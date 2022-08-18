@@ -1,0 +1,1 @@
+[{"name": "王晨", "math": "99", "chinese": "80", "english": "90"}, {"name": "眭媛", "math": "100", "chinese": "90", "english": "100"}, {"name": "1", "math": "1", "chinese": "1", "english": "1"}, {"name": "1", "math": "1", "chinese": "1", "english": "1"}, {"name": "1", "math": "1", "chinese": "1", "english": "1"}, {"name": "1", "math": "1", "chinese": "1", "english": "1"}]
